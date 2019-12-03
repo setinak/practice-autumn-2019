@@ -26,6 +26,6 @@ public class Task09 {
     }
 
     public interface CanFly extends CanMove {
-        public Double speed(CanFly kek);
+        public Double speed(CanFly canFly);
     }
 }
